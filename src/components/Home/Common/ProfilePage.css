@@ -1,0 +1,44 @@
+/* ProfilePage.css */
+.profile-pic {
+    position: relative;
+  }
+  
+  .default-pic {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .default-pic:hover {
+    cursor: pointer;
+  }
+  
+  .profile-pic input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .profile-info {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .danger-zone {
+    margin-top: 20px;
+  }
+  
+  .save-changes {
+    margin-top: 20px;
+  }
+  

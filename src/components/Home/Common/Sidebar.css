@@ -1,0 +1,50 @@
+/* Sidebar.css */
+.sidebar {
+    height: 92%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fcfdff;
+  
+    margin: 0;
+  padding: 0;
+  overflow: auto;
+  z-index: 1000;
+  }
+  
+  .sidebar .nav-link {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #010c0c;
+    height: 32px;
+    border-radius: 6px;
+    align-items: center;
+    display:flex;
+    cursor: pointer;
+    gap:4px;
+    padding-inline: 11px;
+  }
+  
+  .sidebar .nav-link.active {
+    background-color: #eff2f6;
+    color: #1f1d1d;
+  }
+  
+  /*-----------------------------------*/
+  
+ 
+  
+  .sidebar .dropdown-menu {
+    display: none;
+    
+  }
+ 
+  
+  .sidebar .dropdown-menu.show {
+    display: block;
+    
+  }
+
+
+  

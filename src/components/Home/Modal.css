@@ -1,0 +1,19 @@
+.modal-container{
+    position: fixed;
+    z-index: 1;
+    left: 550px;
+    top:10px;
+     width:45%; 
+    height:45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(197, 25, 25, 0.144);
+}
+.modal{
+    border-radius: 5px;
+    padding:2 rem;
+    color: dark;
+    background-color: green ;
+    width: 25em;
+}
